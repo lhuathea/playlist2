@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icon {
+    padding: 9px;
+    text-align: left;
+}
+
+.icon img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.icon h2 {
+    float: right;
+    letter-spacing: 2px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.banner {
+    height: 350px;
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    color: rgb(170, 160, 160);
+    text-align: center;
+    padding: 90px;
+    padding-left: 1;
+    letter-spacing: 2px;
+    font-weight: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.category {
+    text-align: center;
+    background-color: lavenderblush;
+    margin: 10px;
+    padding: 10px;
+}
+
+.category a {
+    color: black;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.slideshow {
+    width: 400px;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 15px;
+    border: 3px solid rgb(184, 102, 102);
+    background-size: cover;
+    object-fit: cover;
+    animation: slideshow 7s linear infinite alternate-reverse;
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url(img/pop2.jpg);
+    }
+
+    50% {
+        background-image: url(img/kpop.jpg);
+    }
+
+    100% {
+        background-image: url(img/jpop.jpg);
+    }
+}
+
+.section-title {
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: brown;
+    text-shadow: 0 4px 2px rgb(180, 128, 59);
+}
+
+.pops-card {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid rgb(218, 164, 164);
+    border-radius: 15px;
+    background-color: white;
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.pops-img {
+    height: 70%;
+    overflow: hidden;
+}
+
+.pops-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 500ms;
+}
+
+.pops-img:hover img {
+    transform: scale(1.2);
+}
+
+.pops-des {
+    height: 30%;
+    padding: 10px;
+    padding-top: 10%;
+    text-align: left;
+}
+
+.kpop-card {
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid none;
+    border-radius: 15px;
+    background-color: white;
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px;
+    transition: 500ms;
+}
+
+.kpop-card:hover {
+    transform: scale(1.05);
+}
+
+
+.kpop-card img {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.kpop-dec {
+    background-color: rgb(252, 238, 249);
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    float: right;
+    padding: 5px;
+}
+
+.kpop-dec h4 {
+    font-size: 20px;
+}
+
+.kpop-dec h5 {
+    padding: 5px;
+}
+
+.jpop-card {
+    width: 450px;
+    margin: 0 auto;
+    height: 420px;
+    border: 3px solid ridge;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(238, 161, 175);
+    margin: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.third {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+.second {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+.first {
+    float: right;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+.jpop-des {
+    border: 2px solid ridge;
+    width: 100px;
+    height: 105px;
+    float: right;
+    margin: 40px;
+    letter-spacing: 2px;
+    background-color: rgb(223, 100, 100);
+    transition: 500ms;
+}
+
+.jpop-des:hover {
+    transform: scale(1.05);
+}
+
+.first:hover {
+    transform: scale(1.05);
+}
+
+.second:hover {
+    transform: scale(1.05);
+}
+
+.third:hover {
+    transform: scale(1.05);
+}
+
+table {
+    background-color: rgb(247, 192, 192);
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 10px;
+    display: inline-block;
+}
+
+thead {
+    height: 75px;
+    background-color: hotpink;
+}
+
+thead tr th:first-child {
+    width: 50%;
+}
+
+thead tr th:nth-child(3) {
+    width: 30%;
+}
+
+tbody tr {
+    height: 50px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(253, 160, 210);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(238, 102, 174);
+}
+
+tbody tr:hover {
+    background-color: rgb(255, 196, 240);
+}
+
+td, th {
+    border: 2px solid rgb(231, 87, 135);
+    padding: 1px;
+}
+
+.signin-form {
+    width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.profile {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    margin: 5px;
+    display: inline-block;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+}
+
+.pf {
+    padding: 10px;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+label, input {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+}
+
+input {
+    background-color: rgb(253, 156, 168);
+}
+
+.primary-btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.haha {
+    letter-spacing: 2px;
+    margin: 15px;
+}

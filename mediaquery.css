@@ -1,0 +1,130 @@
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgb(192, 210, 238);
+    }
+
+    .category {
+        background-color: rgb(211, 231, 247);
+    }
+
+    .section-title {
+        color: rgb(46, 80, 131);
+        text-shadow: 0 4px 2px rgb(133, 140, 207);
+    }
+
+    .slideshow {
+        border: 2px solid blue;
+    }
+
+    .pops-card {
+        border: 2px solid rgb(87, 116, 170);
+    }
+
+    .kpop-dec {
+        background-color: rgb(102, 158, 196);
+    }
+
+    .jpop-des {
+        background-color: rgb(70, 68, 185);
+    }
+
+    .jpop-card {
+        background-color: cornflowerblue;
+    }
+
+    thead {
+        background-color: rgb(105, 108, 255);
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: rgb(160, 200, 253);
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: rgb(124, 167, 233);
+    }
+    
+    tbody tr:hover {
+        background-color: rgb(196, 228, 255);
+    }
+    
+    td, th {
+        border: 2px solid rgb(87, 89, 231);
+        padding: 1px;
+    }
+
+    input {
+        background-color: rgb(226, 240, 247);
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: rgb(230, 189, 102);
+    }
+
+    .banner {
+        height: 500px;
+    }
+
+    .category {
+        background-color: rgb(236, 212, 146);
+    }
+
+    .slideshow {
+        border: 2px solid rgb(97, 97, 4);
+    }
+
+    .section-title {
+        color: brown;
+        text-shadow: 0 4px 2px rgb(173, 113, 34);
+    }
+
+    .pops-card {
+        border: 2px solid rgb(156, 118, 67);
+    }
+
+    .kpop-dec {
+        background-color: rgb(231, 209, 152);
+    }
+
+    .jpop-card {
+        background-color: rgb(131, 110, 42);
+    }
+
+    .jpop-des {
+        background-color: rgb(227, 238, 181);
+    }
+
+    thead {
+        background-color: rgb(102, 88, 28);
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: rgb(230, 207, 79);
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: rgb(139, 130, 43);
+    }
+    
+    tbody tr:hover {
+        background-color: rgb(207, 196, 133);
+    }
+    
+    td, th {
+        border: 2px solid rgb(41, 53, 7);
+        padding: 1px;
+    }
+
+    input {
+        background-color: rgb(231, 238, 167);
+    }
+}
